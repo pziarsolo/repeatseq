@@ -1395,7 +1395,7 @@ bool fileCheck(string strFilename) {
 	ifstream ifile;
 	ifile.open(strFilename.data(),ios::in);
 	//return statement will cast the object to TRUE if the file exists, otherwise false:
-	return ifile;
+	return ifile.good();
 }
 
 //build the fasta index file

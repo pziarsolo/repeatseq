@@ -1,5 +1,5 @@
 # $* is prefix shared by target and dependent;  $@ is name of target file
-CFLAGS = -c -O3 -Ibamtools/src
+CFLAGS = -c -O3 -Ibamtools/src -Ibamtools/build/src
 OBJS= repeatseq.o structures.o CLParse.o
 NAME= repeatseq
 
